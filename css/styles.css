@@ -599,17 +599,37 @@ body {
 }
 
 /* Next participant */
+
+
 #participant-26 {
 	background-color: white;
+  background-image: url(/images/background\ onep.gif) ;
+  background-size: cover;
+}
+#participant-26:hover .profile-photo {
+  visibility: hidden;
+}
+#participant-26:hover  {
+	background-image: url(../images/gear-5-one-piece.gif);
 }
 #participant-26 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+	background-image: url("../images/luffy.webp");
 }
+
 #participant-26 .participant-name::before {
   content: "26_Oassalam(Us)";
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 }
 #participant-26 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+	content: "Rise and grind.";
+  color:rgb(255, 255, 255);
+  /* text-shadow: 2px 2px 6px rgba(0,0,0,0.9); */
+  background-color: rgba(0,0,0,0.5); /* ดำโปร่ง 50% */
+  padding: 2.5px 5px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* Next participant */
